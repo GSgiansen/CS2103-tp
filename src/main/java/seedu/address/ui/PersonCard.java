@@ -28,6 +28,9 @@ public class PersonCard extends UiPart<Region> {
 
     @FXML
     private HBox cardPane;
+
+    @FXML
+    private Label remark;
     @FXML
     private Label name;
     @FXML

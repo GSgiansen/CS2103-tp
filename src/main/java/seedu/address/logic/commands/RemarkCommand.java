@@ -11,6 +11,7 @@ import seedu.address.logic.parser.ArgumentTokenizer;
 import seedu.address.logic.parser.ParserUtil;
 import seedu.address.logic.parser.exceptions.ParseException;
 import seedu.address.model.Model;
+import seedu.address.model.person.Remark;
 
 /**
  * Changes the remark of an existing person in the address book.
@@ -33,7 +34,7 @@ public class RemarkCommand extends Command {
 
     private final Index index;
 
-    private final String remark;
+    private final Remark remark;
 
     /**
 
@@ -43,7 +44,7 @@ public class RemarkCommand extends Command {
 
      */
 
-    public RemarkCommand(Index index, String remark) {
+    public RemarkCommand(Index index, Remark remark) {
 
         requireAllNonNull(index, remark);
 
@@ -103,7 +104,7 @@ public class RemarkCommand extends Command {
                     RemarkCommand.MESSAGE_USAGE), ive);
         }
 
-        String remark = argMultimap.getValue(PREFIX_REMARK).orElse("");
+        Remark remark = new Remark(argMultimap.getValue(PREFIX_REMARK).orElse(""));
 
         return new RemarkCommand(index, remark);
     }
