@@ -12,41 +12,54 @@ GUI created with JavaFX. It is written in Java.
 Given below are my contributions to the project.
 
 
-* **New Feature**: Displaying ui with updated card class
-  * What it does: Description
-  * Justification: Why it is needed
-  * Highlights: Key things to note
-  * Credits: *{mention here if you reused any code/ideas from elsewhere or if a third-party library is heavily used in the feature so that a reader can make a more accurate judgement of how much effort went into the feature}*
+* **New Feature**: Displaying ui with updated Card class
+  * What it does: Card class now is able to showcase the question and hides the answer
+  * Justification: Showcases the functionality of the Card class and allows user to practise
+  * Highlights: Questions are now listed in one deck together
 
 * **Code contributed**: [RepoSense link](https://nus-cs2103-ay2324s1.github.io/tp-dashboard/?search=gsgiansen&breakdown=true)
 
 * **Project management**:
-  * Release 1.2
-  * e.g. Managed releases `v1.2` - `v1.5rc` (3 releases) on GitHub
+  * Release version `1.2` jar file
 
 * **Enhancements to existing features**:
-  * Which enhancements were written by me (include PR number)
-  * e.g. Updated the GUI color scheme (Pull requests [\#33](), [\#34]())
-  * e.g. Wrote additional tests for existing features to increase coverage from 88% to 92% (Pull requests [\#36](), [\#38]())
+  * Refactored the different classes from the AB3 to lesSON [\#59]()
 
-* **Documentation**:
-  * Which documentation were written by me for which guide (include PR number)
-  * User Guide:
-    * e.g. Added documentation for the features `delete` and `find` [\#72]()
-    * e.g. Did cosmetic tweaks to existing documentation of features `clear`, `exit`: [\#74]()
-  * Developer Guide:
-    * e.g. Added implementation details of the `delete` feature.
+[//]: # (* **Documentation**:)
 
-* **Community**:
-  * Contributions to the community (include examples i.e. PR number / screenshots)
-  * e.g. PRs reviewed (with non-trivial review comments): [\#12](), [\#32](), [\#19](), [\#42]()
-  * e.g. Contributed to forum discussions (examples: [1](), [2](), [3](), [4]())
-  * e.g. Reported bugs and suggestions for other teams in the class (examples: [1](), [2](), [3]())
-  * e.g. Some parts of the history feature I added was adopted by several other class mates ([1](), [2]())
+[//]: # (  * Which documentation were written by me for which guide &#40;include PR number&#41;)
 
-* **Tools**:
-  * List of tools used (include examples i.e. PR number / screenshots)
-  * Integrated a third party library (Natty) to the project ([\#42]())
-  * Integrated a new Github plugin (CircleCI) to the team repo
+[//]: # (  * User Guide:)
 
-* _{you can add/remove categories in the list above}_
+[//]: # (    * e.g. Added documentation for the features `delete` and `find` [\#72]&#40;&#41;)
+
+[//]: # (    * e.g. Did cosmetic tweaks to existing documentation of features `clear`, `exit`: [\#74]&#40;&#41;)
+
+[//]: # (  * Developer Guide:)
+
+[//]: # (    * e.g. Added implementation details of the `delete` feature.)
+
+[//]: # ()
+[//]: # (* **Community**:)
+
+[//]: # (  * Contributions to the community &#40;include examples i.e. PR number / screenshots&#41;)
+
+[//]: # (  * e.g. PRs reviewed &#40;with non-trivial review comments&#41;: [\#12]&#40;&#41;, [\#32]&#40;&#41;, [\#19]&#40;&#41;, [\#42]&#40;&#41;)
+
+[//]: # (  * e.g. Contributed to forum discussions &#40;examples: [1]&#40;&#41;, [2]&#40;&#41;, [3]&#40;&#41;, [4]&#40;&#41;&#41;)
+
+[//]: # (  * e.g. Reported bugs and suggestions for other teams in the class &#40;examples: [1]&#40;&#41;, [2]&#40;&#41;, [3]&#40;&#41;&#41;)
+
+[//]: # (  * e.g. Some parts of the history feature I added was adopted by several other class mates &#40;[1]&#40;&#41;, [2]&#40;&#41;&#41;)
+
+[//]: # ()
+[//]: # (* **Tools**:)
+
+[//]: # (  * List of tools used &#40;include examples i.e. PR number / screenshots&#41;)
+
+[//]: # (  * Integrated a third party library &#40;Natty&#41; to the project &#40;[\#42]&#40;&#41;&#41;)
+
+[//]: # (  * Integrated a new Github plugin &#40;CircleCI&#41; to the team repo)
+
+[//]: # ()
+[//]: # (* _{you can add/remove categories in the list above}_)
