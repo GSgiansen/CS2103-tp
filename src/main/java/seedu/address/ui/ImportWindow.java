@@ -18,7 +18,7 @@ import seedu.address.commons.core.LogsCenter;
  */
 public class ImportWindow extends UiPart<Stage> {
 
-    private static String warningData = "Warning! Importing data will close app for best experience";
+    public static final String WARNINGDATA = "Warning! Importing data will close app for best experience";
     private static final Logger logger = LogsCenter.getLogger(ImportWindow.class);
     private static final String FXML = "ImportWindow.fxml";
 
@@ -41,7 +41,7 @@ public class ImportWindow extends UiPart<Stage> {
         super(FXML, root);
         this.stage = root;
         this.primaryStage = primaryStage;
-        warningMessage.setText(warningData);
+        warningMessage.setText(WARNINGDATA);
     }
 
     /**

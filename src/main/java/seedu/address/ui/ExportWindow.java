@@ -142,7 +142,4 @@ public class ExportWindow extends UiPart<Stage> {
         File selectedFile = new File(filePath);
         return selectedFile.exists() && selectedFile.getName().equals("deck.json");
     }
-    public static String getExportData() {
-        return exportData;
-    }
 }
