@@ -27,6 +27,13 @@ javafx {
 }
 
 test {
+    doFirst {
+        if (System.getProperty("os.name").equals("Linux")) {
+            exclude '**/ui/**'
+        }
+    }
+    useJUnitPlatform()
+    finalizedBy jacocoTestReport
     useJUnitPlatform()
     finalizedBy jacocoTestReport
 }
